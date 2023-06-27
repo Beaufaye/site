@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Créer un compte</title>
+    <link rel="stylesheet" href="formulaire.css">
+</head>
+<body>
+    
+    <header>
+        <div class="logo">
+            <p>QALAM INFO</p>
+        </div>
+            <nav>
+                <ul>
+                    <li><a href="Accueil.html">ACCEUIL</a></li>
+                    <li class="deroulant"><a href="#">INFO</a>
+                        <ul class="sous">
+                            <li><a href="politique.html">POLITIQUE</a></li>
+                            <li><a href="economie.html">ECONOMIE</a></li>
+                            <li><a href="culture.html">CULTURE</a></li>
+                            <li><a href="sport.html">SPORT</a></li>
+                        </ul>    
+                    </li>
+                    <li><a href="communiqué.html">COMMUNIQUÉ</a></li>
+                    <li><a href="Contact.html">CONTACT</a></li>
+                </ul>
+            </nav> 
+            <a href="formulairecontact.html"><img style="width: 50px;" src="image/user.jpg" alt=""></a>
+    </header>
+
+    <div class="Creer_compte">
+        <h1>Créer un compte</h1>
+        
+        <form action="#" method="post">
+            <div>
+                <label for="nom">Nom*</label>
+                    <input type="text" id="nom" name="nom" placeholder="" required>
+            </div>
+            <div>
+                <label for="prenom">Prénom*</label>
+                    <input type="text" id="text" name="email" placeholder="" required>
+            </div>
+            <div>
+                <label for="age">Age</label>
+                    <input type="number" id="number" name="" placeholder="" required>
+            </div>
+
+            <legend><strong>Genre</strong></legend>
+            
+                <input type="checkbox" id="h" name="homme" value="">
+                <label for="h">Homme</label>
+                <input type="checkbox" id="f" name="femme" value="">
+                <label for="f">Femme</label>
+            
+            <div>
+                <label for="email">Adresse E-mail*</label>
+                    <input type="email" id="email" name="email" placeholder="" required>
+            </div>
+
+            <div>
+                <label for="mdp">Mot de Passe*</label>
+                    <input type="password" id="motp" name="motp" placeholder="" required>  
+            </div>
+
+            <div>
+                <label for="mdp2">Confirmer Mot de Passe*</label>
+                    <input type="password2" id="motp2" name="motp2" placeholder="" required>
+            </div>
+            <p>Les mots de passe doivent contenir  au moins 6 caractères(chiffres et lettres).</p>
+        
+            <div>
+                <button class="btn" type="submit">SE CONNECTER</button>
+            </div>
+        </form>
+    </div>
+
+    <footer>
+        <div class="container">
+            <div class="left section">
+                <h2>Abonnez-vous</h2>
+
+                <div>
+                    <img class="ytb" src="image/youtube.png" alt="">
+                </div>
+                <div>
+                    <p class="ve">pour reçevoir les infos <br> +226 62784021 / 56215121</p>
+                </div>
+            </div>
+
+            <div class="center section">
+                <h2 class="ct"> Nous contacter</h2>
+                <div>
+                    <img class="f" src="image/fb.png" alt="">
+                    <img class="t" src="image/t.png" alt="">
+                    <img class="i" src="image/insta.png" alt="">
+                </div>
+                <div>
+                    <p class="mail">qalaminfo.1@gmail.com</p>
+                </div>
+                
+            </div>
+
+            <div class="right section">
+                <h2>Catégories populaires</h2>
+                <div>
+                    <p style="color: white; font-size: 22px;" >Société</p>
+                    <p style="color: white; font-size: 22px;" >POLITIQUE</p>
+                    <p style="color: white; font-size: 22px;" >INTERNATIONAL</p> 
+                </div>
+                <a style="color: red;" href="Contact.html">NOUS CONTACTER</a></button> </div>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <center>
+                <div><span>Powered By <a href="https://multiwebpress.com">copyright © Qalam Info 2023</a></span></div>
+            </center>
+        </div>
+    </footer>
+
+</body>
+</html>
+
